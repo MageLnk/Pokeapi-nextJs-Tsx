@@ -8,7 +8,6 @@ interface PokemonPageProps {
   pokemon: Pokemon;
 }
 // Utils
-import { pokeApi } from "../../services";
 // Styles
 import { Button, Card, Container, Grid, Image, Text } from "@nextui-org/react";
 import confetti from "canvas-confetti";
