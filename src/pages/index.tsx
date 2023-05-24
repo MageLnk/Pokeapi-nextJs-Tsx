@@ -5,7 +5,7 @@ import { Layout } from "../components/layouts";
 // Interfaces
 import { SmallPokemon, PokemonListResponse } from "../interfaces";
 interface HomePageProps {
-  pokemons: SmallPokemon;
+  pokemons: SmallPokemon[];
 }
 // Apis
 import { pokeApi } from "../services";
